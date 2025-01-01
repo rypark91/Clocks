@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#mainMenu{
+    width: 700px;
+    margin: 0 auto;
+}
+#container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+#classic, #otherClassic{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    border: 4px solid black;
+    display: inline-block;
+}
+#hand, #otherhand{
+    width: 100px;
+    height: 2px;
+    background-color: red;
+    position: relative;
+    top: 45%;
+    left: 50%;
+    transform-origin: left;
+    transform: rotate(240deg);
+}
+#minuteHand, #otherminuteHand{
+    width: 150px;
+    height: 3px;
+    background-color: black;
+    position: relative;
+    top: 45%;
+    left: 50%;
+    transform-origin: left;
+    transform: rotate(45deg);
+}
+#hourHand, #otherhourHand{
+    width: 80px;
+    height: 8px;
+    background-color: black;
+    position: relative;
+    top: 44%;
+    left: 50%;
+    transform-origin: left;
+    transform: rotate(0deg);
+}
+.timeLabel{
+    position: relative;
+    left: 39%;
+    top: 24%;
+}
+#digital{
+    display: block;
+    
+}
+
+.digitalLabel{
+    font-size: 40px;
+}
+#classic, #otherClassic{
+    display: block;
+}
+#clock, #otherClock{
+    font-family: "Orbitron", sans-serif;
+    color: rgb(0, 173, 0)
+}
+h1, #copy{
+    text-align: center;
+}
+.twelve{
+    position: relative;
+    top: -5%;
+    left: 48%;
+    display: inline-block;
+}
+.one{
+    position: relative;
+    top: 2%;
+    left: 66%;
+    display: inline-block;
+}
+.two{
+    position: relative;
+    top: 16%;
+    left: 81%;
+    display: inline-block;
+}
+.three{
+    position: relative;
+    top: 39%;
+    left: 86%;
+    display: inline-block;
+}
+.four{
+    position: relative;
+    top: 62%;
+    left: 73%;
+    display: inline-block;
+}
+.five{
+    position: relative;
+    top: 78%;
+    left: 54%;
+    display: inline-block;
+}
+.six{
+    position: relative;
+    top: 83%;
+    left: 29%;
+    display: inline-block;
+}
+.seven{
+    position: relative;
+    top: 78%;
+    left: 3%;
+    display: inline-block;
+}
+.eight{
+    position: relative;
+    top: 63%;
+    left: -18%;
+    display: inline-block;
+}
+.nine{
+    position: relative;
+    top: 39%;
+    left: -27%;
+    display: inline-block;
+}
+.ten{
+    position: relative;
+    top: 16%;
+    left: -25%;
+    display: inline-block;
+}
+.eleven{
+    position: relative;
+    top: 2%;
+    left: -11%;
+    display: inline-block;
+}
+

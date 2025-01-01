@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Comparable Clocks</title>
+</head>
+<body>
+    <h1>Comparable Clocks</h1>
+    <div id="mainMenu">
+        <select name="timeZone" id="timeZone">
+
+        </select>
+        <label for="">digital</label>
+        <input type="radio" id="digitalButton" name="clockType" checked>
+        <label for="">classic</label>
+        <input type="radio" id="classicButton" name="clockType">
+    </div>
+    <div id="container">
+        
+        <div id="classic">
+            <p class="timeLabel">Current Time:</p>
+            <div id="hand"></div>
+            <div id="minuteHand"></div>
+            <div id="hourHand"></div>
+            <div class="twelve">12</div>
+            <div class="one">1</div>
+            <div class="two">2</div>
+            <div class="three">3</div>
+            <div class="four">4</div>
+            <div class="five">5</div>
+            <div class="six">6</div>
+            <div class="seven">7</div>
+            <div class="eight">8</div>
+            <div class="nine">9</div>
+            <div class="ten">10</div>
+            <div class="eleven">11</div>
+            
+        </div>
+        <div id="otherClassic">
+            <p class="timeLabel" id="otherLabel">Other time:</p>
+            <div id="otherhand"></div>
+            <div id="otherminuteHand"></div>
+            <div id="otherhourHand"></div>
+            <div class="twelve">12</div>
+            <div class="one">1</div>
+            <div class="two">2</div>
+            <div class="three">3</div>
+            <div class="four">4</div>
+            <div class="five">5</div>
+            <div class="six">6</div>
+            <div class="seven">7</div>
+            <div class="eight">8</div>
+            <div class="nine">9</div>
+            <div class="ten">10</div>
+            <div class="eleven">11</div>
+        </div>
+    
+    
+        <div id="digital">
+            <label for="">12 Hour Format</label>
+            <input type="radio" id="twelveButton" name="formatType" checked>
+            <label for="">24 Hour Format</label>
+            <input type="radio" id="twentyFourButton" name="formatType">
+            <p class="digitalLabel">Current Time: <span id="clock"></span></p>
+            <p class="digitalLabel">Other Time: <span id="otherClock"></span></p>
+        </div>
+    </div>
+    
+    
+    <p id="copy">Practice site by Ryan Park &copy;2024. API Provided By Time API</p>
+    <script src="time.js"></script>
+</body>
+</html>
